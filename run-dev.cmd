@@ -22,7 +22,7 @@ if errorlevel 1 (
   exit /b 1
 )
 
-echo mvp-app: starting tauri dev...
+echo canvas_reader: starting tauri dev...
 echo Current dir: %CD%
 echo.
 echo (First run compiles Rust deps - please wait a few minutes)

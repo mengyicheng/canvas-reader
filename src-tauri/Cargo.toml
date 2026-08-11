@@ -1,7 +1,7 @@
 [package]
-name = "canvas_reader_mvp"
+name = "canvas_reader"
 version = "0.2.0"
-description = "无限画布 AI 阅读软件 MVP"
+description = "无限画布 AI 阅读软件"
 authors = ["小安"]
 edition = "2021"
 

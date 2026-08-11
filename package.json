@@ -1,5 +1,5 @@
 {
-  "name": "canvas-reader-mvp",
+  "name": "canvas_reader",
   "private": true,
   "version": "0.2.0",
   "type": "module",

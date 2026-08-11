@@ -135,7 +135,7 @@ function saveSync(s: PersistState) {
 
 // ---------- Tauri（文件落盘，异步） ----------
 // 关键坑：Tauri v2 的 writeTextFile 不会自动创建父目录。首次运行时
-// AppData 下的应用目录（Roaming/com.canvasreader.mvp）还不存在，直接写会静默失败
+// AppData 下的应用目录（Roaming/com.canvasreader.app）还不存在，直接写会静默失败
 // → 磁盘无文件、重启丢数据。因此先 appDataDir() 拿绝对路径，mkdir 建目录再写。
 async function appDataFile(): Promise<string> {
   const { appDataDir, join } = await import("@tauri-apps/api/path");

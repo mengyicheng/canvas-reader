@@ -234,7 +234,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "canvas_reader_mvp"
+name = "canvas_reader"
 version = "0.2.0"
 dependencies = [
  "serde",
