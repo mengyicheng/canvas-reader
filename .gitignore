@@ -1,0 +1,18 @@
+# ── 依赖 / 构建产物 ──
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# ── 日志 / 系统文件 ──
+*.log
+.DS_Store
+Thumbs.db
+
+# ── 本地工作记忆（非应用源码）──
+.workbuddy/
+
+# ── 调试残留 ──
+.debug/
+dev-log.txt
+
